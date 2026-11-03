@@ -27,8 +27,8 @@ export const productos: Producto[] = [
     compatibilidad: "Hyundai H-100, Grace, H-1",
     enStock: true,
     imagen: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?q=80&w=800&auto=format&fit=crop",
-    descripcion: "Balancín de admisión para motores Diésel Hyundai y Mitsubishi. Alta resistencia al desgaste en culatas de motores comerciales.",
-    especificaciones: ["Material: Acero forjado", "Posición: Admisión (IN)", "Garantía de fábrica OEM"]
+    descripcion: "Balancín de admisión para motores Diésel Hyundai y Mitsubishi.",
+    especificaciones: ["Material: Acero forjado", "Posición: Admisión (IN)"]
   },
   {
     id: "2",
@@ -42,8 +42,8 @@ export const productos: Producto[] = [
     compatibilidad: "Hyundai H-100, Grace, H-1",
     enStock: true,
     imagen: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?q=80&w=800&auto=format&fit=crop",
-    descripcion: "Balancín de escape diseñado para soportar altas temperaturas y fricción en motores de trabajo pesado.",
-    especificaciones: ["Material: Acero reforzado", "Posición: Escape (EX)", "Ajuste de precisión"]
+    descripcion: "Balancín de escape diseñado para soportar altas temperaturas.",
+    especificaciones: ["Material: Acero reforzado", "Posición: Escape (EX)"]
   },
   {
     id: "3",
@@ -57,8 +57,8 @@ export const productos: Producto[] = [
     compatibilidad: "Kia K2700, Pregio, Bongo",
     enStock: true,
     imagen: "https://images.unsplash.com/photo-1600706432523-991448b188c6?q=80&w=800&auto=format&fit=crop",
-    descripcion: "Junta/Empaque de goma de nitrilo resistente a fugas de aceite y alta temperatura para motores Kia J2.",
-    especificaciones: ["Material: Nitrilo OEM", "Resistencia térmica superior", "Instalación directa"]
+    descripcion: "Junta de goma de nitrilo resistente a fugas de aceite.",
+    especificaciones: ["Material: Nitrilo OEM", "Resistencia térmica superior"]
   },
   {
     id: "4",
@@ -71,16 +71,16 @@ export const productos: Producto[] = [
     compatibilidad: "Hyundai County, HD-65, HD-78",
     enStock: true,
     imagen: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=800&auto=format&fit=crop",
-    descripcion: "Soporte central de transmisión con rodamiento integrado para reducir vibraciones en chasis de camiones y buses.",
-    especificaciones: ["Diámetro interno: 40 mm", "Incluye rodaje sellado", "Absorción de impactos"]
+    descripcion: "Soporte central de transmisión con rodamiento integrado.",
+    especificaciones: ["Diámetro interno: 40 mm", "Incluye rodaje sellado"]
   }
 ];
 
 export const marcas = [
-  { nombre: "SANGSIN BRAKE", desc: "Líder coreano en componentes de freno de fricción y equipo original.", logo: "SB" },
-  { nombre: "HANSANG", desc: "Especialista en repuestos de caja de transmisión, piñones y coronas.", logo: "HS" },
-  { nombre: "MANDO", desc: "Sistemas de suspensión, amortiguación y dirección de nivel mundial.", logo: "MD" },
-  { nombre: "TCIC", desc: "Fabricante de bombas de freno, bombines y embragues de precisión.", logo: "TC" },
-  { nombre: "PHC VALEO", desc: "Sistemas globales de transmisión y embragues para automoción.", logo: "PV" },
-  { nombre: "YULIM", desc: "Innovación en componentes de dirección y suspensión vehicular.", logo: "YL" }
+  { nombre: "SANGSIN BRAKE", desc: "Líder coreano en componentes de freno.", logo: "SB" },
+  { nombre: "HANSANG", desc: "Especialista en repuestos de caja de transmisión.", logo: "HS" },
+  { nombre: "MANDO", desc: "Sistemas de suspensión y dirección.", logo: "MD" },
+  { nombre: "TCIC", desc: "Fabricante de bombas de freno.", logo: "TC" },
+  { nombre: "PHC VALEO", desc: "Sistemas globales de transmisión.", logo: "PV" },
+  { nombre: "YULIM", desc: "Innovación en componentes de dirección.", logo: "YL" }
 ];
