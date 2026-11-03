@@ -10,6 +10,8 @@ export interface Producto {
   compatibilidad: string;
   enStock: boolean;
   imagen: string;
+  descripcion: string;
+  especificaciones?: string[];
 }
 
 export const productos: Producto[] = [
@@ -24,7 +26,9 @@ export const productos: Producto[] = [
     sku: "24531-42880",
     compatibilidad: "Hyundai H-100, Grace, H-1",
     enStock: true,
-    imagen: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?q=80&w=800&auto=format&fit=crop"
+    imagen: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?q=80&w=800&auto=format&fit=crop",
+    descripcion: "Balancín de admisión para motores Diésel Hyundai y Mitsubishi. Alta resistencia al desgaste en culatas de motores comerciales.",
+    especificaciones: ["Material: Acero forjado", "Posición: Admisión (IN)", "Garantía de fábrica OEM"]
   },
   {
     id: "2",
@@ -37,7 +41,9 @@ export const productos: Producto[] = [
     sku: "24529-42880",
     compatibilidad: "Hyundai H-100, Grace, H-1",
     enStock: true,
-    imagen: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?q=80&w=800&auto=format&fit=crop"
+    imagen: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?q=80&w=800&auto=format&fit=crop",
+    descripcion: "Balancín de escape diseñado para soportar altas temperaturas y fricción en motores de trabajo pesado.",
+    especificaciones: ["Material: Acero reforzado", "Posición: Escape (EX)", "Ajuste de precisión"]
   },
   {
     id: "3",
@@ -50,7 +56,9 @@ export const productos: Producto[] = [
     sku: "0K65A10236C",
     compatibilidad: "Kia K2700, Pregio, Bongo",
     enStock: true,
-    imagen: "https://images.unsplash.com/photo-1600706432523-991448b188c6?q=80&w=800&auto=format&fit=crop"
+    imagen: "https://images.unsplash.com/photo-1600706432523-991448b188c6?q=80&w=800&auto=format&fit=crop",
+    descripcion: "Junta/Empaque de goma de nitrilo resistente a fugas de aceite y alta temperatura para motores Kia J2.",
+    especificaciones: ["Material: Nitrilo OEM", "Resistencia térmica superior", "Instalación directa"]
   },
   {
     id: "4",
@@ -62,7 +70,9 @@ export const productos: Producto[] = [
     sku: "49710-45200",
     compatibilidad: "Hyundai County, HD-65, HD-78",
     enStock: true,
-    imagen: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=800&auto=format&fit=crop"
+    imagen: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=800&auto=format&fit=crop",
+    descripcion: "Soporte central de transmisión con rodamiento integrado para reducir vibraciones en chasis de camiones y buses.",
+    especificaciones: ["Diámetro interno: 40 mm", "Incluye rodaje sellado", "Absorción de impactos"]
   }
 ];
 
