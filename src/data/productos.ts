@@ -56,7 +56,7 @@ export const productos: Producto[] = [
     sku: "0K65A10236C",
     compatibilidad: "Kia K2700, Pregio, Bongo",
     enStock: true,
-    imagen: "https://images.unsplash.com/photo-1600706432523-991448b188c6?q=80&w=800&auto=format&fit=crop",
+    imagen: "https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?q=80&w=800&auto=format&fit=crop",
     descripcion: "Junta de goma de nitrilo resistente a fugas de aceite.",
     especificaciones: ["Material: Nitrilo OEM", "Resistencia térmica superior"]
   },
